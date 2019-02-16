@@ -1,0 +1,54 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.1'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+repositories {
+    google()
+    jcenter()
+
+}
+
+dependencies {
+    implementation 'com.google.android.gms:play-services:4.3.23'
+}
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        applicationId "org.forzadroid.attentiontest"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("/work/java/WorkspaceAndroid/exports/keystore")
+            keyAlias "android"
+            storePassword System.console() ? String.valueOf(System.console().readPassword("\n\$ Enter keystore password: ")) : 'password'
+            keyPassword System.console() ? String.valueOf(System.console().readPassword("\n\$ Enter key password: ")) : "password"
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+}
