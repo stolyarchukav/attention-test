@@ -32,21 +32,6 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
-    signingConfigs {
-        release {
-            storeFile file("/work/java/WorkspaceAndroid/exports/keystore")
-            keyAlias "android"
-            storePassword System.console() ? String.valueOf(System.console().readPassword("\n\$ Enter keystore password: ")) : 'password'
-            keyPassword System.console() ? String.valueOf(System.console().readPassword("\n\$ Enter key password: ")) : "password"
-        }
-    }
-
-    buildTypes {
-        release {
-            signingConfig signingConfigs.release
-        }
-    }
-
     lintOptions {
         abortOnError false
     }
