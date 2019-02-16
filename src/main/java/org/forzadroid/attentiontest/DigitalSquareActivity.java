@@ -17,8 +17,6 @@ import android.widget.FrameLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 
-import org.forzadroid.attentiontest.advert.AdUtils;
-
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
@@ -37,7 +35,7 @@ public class DigitalSquareActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		
 		setContentView(R.layout.dig_square);
-		final FrameLayout parent = (FrameLayout) findViewById(R.id.digSquare);
+		final FrameLayout parent = findViewById(R.id.digSquare);
 	
 		final Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 		
@@ -137,8 +135,7 @@ public class DigitalSquareActivity extends Activity {
 	}
 	
 	private void finishGame() {
-        AdUtils.loadAd(this);
-		String resultString = appState.finishDigitTest(size);
+        String resultString = appState.finishDigitTest(size);
 		titleTimerTask.cancel(false);
 		
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);

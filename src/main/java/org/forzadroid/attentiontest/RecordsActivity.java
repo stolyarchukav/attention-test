@@ -3,22 +3,13 @@ package org.forzadroid.attentiontest;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.CompoundButton;
-import android.widget.TableRow;
+import android.widget.*;
 import android.widget.TableRow.LayoutParams;
-import android.widget.TextView;
-import android.widget.ToggleButton;
-
-import org.forzadroid.attentiontest.advert.AdUtils;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.forzadroid.attentiontest.Constants.DIGIT_KEY_PREFIX;
-import static org.forzadroid.attentiontest.Constants.REVERSE_KEY;
-import static org.forzadroid.attentiontest.Constants.VAR_FONT_COLOR_KEY;
-import static org.forzadroid.attentiontest.Constants.VAR_FONT_SIZE_KEY;
+import static org.forzadroid.attentiontest.Constants.*;
 
 public class RecordsActivity extends Activity {
 
@@ -77,8 +68,6 @@ public class RecordsActivity extends Activity {
 				updateRecords();
 			}
 		});
-
-        AdUtils.loadAd(this);
 	}
 	
 	@Override
