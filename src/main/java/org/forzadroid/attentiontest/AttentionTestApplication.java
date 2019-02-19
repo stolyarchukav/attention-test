@@ -5,18 +5,10 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.graphics.Color;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static org.forzadroid.attentiontest.Constants.DIGIT_KEY_PREFIX;
-import static org.forzadroid.attentiontest.Constants.REVERSE_KEY;
-import static org.forzadroid.attentiontest.Constants.VAR_FONT_COLOR_KEY;
-import static org.forzadroid.attentiontest.Constants.VAR_FONT_SIZE_KEY;
+import static org.forzadroid.attentiontest.Constants.*;
 
 public class AttentionTestApplication extends Application {
 
@@ -27,6 +19,7 @@ public class AttentionTestApplication extends Application {
 	private List<Integer> values;
 	private Map<String, Long> records;
 	private SharedPreferences preferences;
+    private boolean hideCompletedSquares;
 	private boolean varFontSize;
 	private boolean varFontColor;
 	private Random random = new Random();
@@ -139,6 +132,11 @@ public class AttentionTestApplication extends Application {
         editor.putLong(key, DEFAULT_RECORD);
     }
 
+    public void setHideCompletedSquares(boolean hideCompletedSquares) {
+        this.hideCompletedSquares = hideCompletedSquares;
+        preferences.edit().putBoolean(HIDE_COMPLETED_SQUARES_KEY, hideCompletedSquares);
+    }
+
     public void setVarFontSize(boolean varFontSize) {
 		this.varFontSize = varFontSize;
 		preferences.edit().putBoolean(VAR_FONT_SIZE_KEY, varFontSize);
@@ -152,6 +150,10 @@ public class AttentionTestApplication extends Application {
     public void setReverse(boolean reverse) {
         this.reverse = reverse;
         preferences.edit().putBoolean(REVERSE_KEY, reverse);
+    }
+
+    public boolean isHideCompletedSquares() {
+        return hideCompletedSquares;
     }
 
 	public boolean isVarFontSize() {

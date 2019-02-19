@@ -28,6 +28,7 @@ public class DigitalSquareActivity extends Activity {
 	private static final int MARGIN = 2;
 	private AttentionTestApplication appState;
 	private int size;
+	private boolean hideCompleted;
     private AsyncTask<Void, String, Void> titleTimerTask;
 	
 	@Override
@@ -43,10 +44,11 @@ public class DigitalSquareActivity extends Activity {
 	    final int count = size * size;
 
         appState = (AttentionTestApplication) getApplicationContext();
-	    final boolean reverse = appState.isReverse();
+        hideCompleted = appState.isHideCompletedSquares();
+        final boolean reverse = appState.isReverse();
         final List<Integer> values = appState.getValues(size);
         final AtomicInteger next = appState.getNext();
-	    final Set<Button> buttons = new HashSet<Button>(); 
+	    final Set<Button> buttons = new HashSet<Button>();
 	    
 	    TableLayout layout = new TableLayout(this) {
 			@Override
@@ -123,10 +125,10 @@ public class DigitalSquareActivity extends Activity {
 
     private void updateButtonStatus(Button button, boolean passed) {
         button.setEnabled(! passed);
-        if (passed) {
+        if (passed && hideCompleted) {
             button.setTextColor(Color.BLACK);
         }
-        button.setBackgroundColor(passed ? Color.GRAY : Color.rgb(105, 214, 241));
+        button.setBackgroundColor(passed && hideCompleted ? Color.GRAY : Color.rgb(105, 214, 241));
     }
 
     private void updateButtonStatus(Button button, int number, int next, boolean reverse) {

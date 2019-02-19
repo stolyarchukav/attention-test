@@ -18,8 +18,17 @@ public class DigitalSequenceActivity extends Activity {
 		setContentView(R.layout.dig_seq);
 		
 		appState = (AttentionTestApplication) getApplicationContext();
-		
-		CheckBox var_font_size = (CheckBox) findViewById(R.id.varFontSize);
+
+        CheckBox hideCompletedSquares = findViewById(R.id.hideCompletedSquares);
+        hideCompletedSquares.setChecked(appState.isHideCompletedSquares());
+        hideCompletedSquares.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                appState.setHideCompletedSquares(isChecked);
+            }
+        });
+
+		CheckBox var_font_size = findViewById(R.id.varFontSize);
 		var_font_size.setChecked(appState.isVarFontSize());
 		var_font_size.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 			@Override
@@ -28,7 +37,7 @@ public class DigitalSequenceActivity extends Activity {
 			}
 		});
 		
-		CheckBox var_font_color = (CheckBox) findViewById(R.id.varFontColor);
+		CheckBox var_font_color = findViewById(R.id.varFontColor);
 		var_font_color.setChecked(appState.isVarFontColor());
 		var_font_color.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 			@Override
@@ -37,7 +46,7 @@ public class DigitalSequenceActivity extends Activity {
 			}
 		});
 
-        CheckBox reverseOrder = (CheckBox) findViewById(R.id.reverseOrder);
+        CheckBox reverseOrder = findViewById(R.id.reverseOrder);
         reverseOrder.setChecked(appState.isReverse());
         reverseOrder.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -46,28 +55,28 @@ public class DigitalSequenceActivity extends Activity {
             }
         });
 		
-		Button digSeq3 = (Button) findViewById(R.id.digSeq3);
+		Button digSeq3 = findViewById(R.id.digSeq3);
 		digSeq3.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View view) {
 				startDigSquare(3);
 			}
 		});
 		
-		Button digSeq4 = (Button) findViewById(R.id.digSeq4);
+		Button digSeq4 = findViewById(R.id.digSeq4);
 		digSeq4.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View view) {
 				startDigSquare(4);
 			}
 		});
 		
-		Button digSeq5 = (Button) findViewById(R.id.digSeq5);
+		Button digSeq5 = findViewById(R.id.digSeq5);
 		digSeq5.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View view) {
 				startDigSquare(5);
 			}
 		});
 		
-		Button digSeq6 = (Button) findViewById(R.id.digSeq6);
+		Button digSeq6 = findViewById(R.id.digSeq6);
 		digSeq6.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View view) {
 				startDigSquare(6);

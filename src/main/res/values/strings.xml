@@ -8,8 +8,9 @@
     <string name="main_rate_app">Rate application</string>
 
     <string name="dig_seq_level">Select level</string>
-    <string name="dig_seq_var_font_size">various font size</string>
-    <string name="dig_seq_var_font_color">various font color</string>
+    <string name="dig_seq_hide_completed">Hide completed squares</string>
+    <string name="dig_seq_var_font_size">Various font size</string>
+    <string name="dig_seq_var_font_color">Various font color</string>
     <string name="dig_seq_reverse_order">Reverse order</string>
     <string name="dig_seq_size_3">easy (3x3)</string>
     <string name="dig_seq_size_4">medium (4x4)</string>

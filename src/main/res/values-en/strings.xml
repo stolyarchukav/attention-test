@@ -31,4 +31,5 @@
     <string name="records_fixed_font_color">fixed font color</string>
     <string name="records_reverse_order">reverse order</string>
     <string name="records_direct_order">direct order</string>
+    <string name="dig_seq_hide_completed">Hide completed squares</string>
 </resources>
