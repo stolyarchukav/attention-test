@@ -2,7 +2,6 @@
 <resources>
     <string name="app_name">Тест внимания</string>
     <string name="main_title">Главное меню</string>
-    <string name="main_digital_sequence">Последовательность чисел</string>
     <string name="main_records">Лучшие результаты</string>
     <string name="main_more_apps"><u>Другие приложения</u></string>
     <string name="main_rate_app"><u>Оценить приложение</u></string>
@@ -32,4 +31,5 @@
     <string name="records_reverse_order">Обратный порядок</string>
     <string name="records_direct_order">Прямой порядок</string>
     <string name="dig_seq_hide_completed">Скрывать пройдённые квадраты</string>
+    <string name="main_digital_sequence">Выбрать тест</string>
 </resources>

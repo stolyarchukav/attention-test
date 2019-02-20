@@ -6,8 +6,11 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import org.forzadroid.attentiontest.menu.MenuUtils;
 
 public class AttentionTest extends Activity {
     
@@ -51,6 +54,16 @@ public class AttentionTest extends Activity {
         } catch (ActivityNotFoundException e) {
             Log.w(Constants.LOG_TAG, "Can't open market app page with all apps");
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return MenuUtils.createOptionsMenuNoBar(menu, this);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        return MenuUtils.optionsItemSelected(item, this);
     }
 
 }

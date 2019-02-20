@@ -2,9 +2,12 @@ package org.forzadroid.attentiontest;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.*;
 import android.widget.TableRow.LayoutParams;
+import org.forzadroid.attentiontest.menu.MenuUtils;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -111,6 +114,16 @@ public class RecordsActivity extends Activity {
 			}
 			textMap.get(size).setText(timeStr);
 		}
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		return MenuUtils.createOptionsMenu(menu, this);
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		return MenuUtils.optionsItemSelected(item, this);
 	}
 	
 }

@@ -2,7 +2,7 @@
 <resources>
 	<string name="app_name">Attention Test</string>
     <string name="main_title">Main menu</string>
-    <string name="main_digital_sequence">Sequence</string>
+    <string name="main_digital_sequence">Choose the test</string>
     <string name="main_records">Scores</string>
     <string name="main_more_apps"><u>Get more applications</u></string>
     <string name="main_rate_app">Rate application</string>

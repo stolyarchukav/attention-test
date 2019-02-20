@@ -10,12 +10,15 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.os.Vibrator;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
+import org.forzadroid.attentiontest.menu.MenuUtils;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -182,6 +185,16 @@ public class DigitalSquareActivity extends Activity {
 		protected void onProgressUpdate(String... params) {
 			setTitle(params[0]);
 		}
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		return MenuUtils.createOptionsMenu(menu, this);
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		return MenuUtils.optionsItemSelected(item, this);
 	}
 	
 }
