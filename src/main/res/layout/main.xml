@@ -5,27 +5,23 @@
               android:layout_width="fill_parent" android:layout_height="fill_parent"
               tools:context=".AttentionTest">
 
-    <TextView android:layout_width="fill_parent"
-              android:gravity="center"
-              android:layout_height="wrap_content"
-              android:textSize="30sp"
-              android:layout_margin="15px"
-              android:text="@string/main_title"
-              android:textColor="@color/title"/>
-
     <Button android:id="@+id/digSeqButton"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/main_digital_sequence"
-            android:textSize="20sp"
-            android:layout_margin="15px"/>
+            android:textSize="24sp"
+            android:layout_margin="15dp"
+            android:drawableLeft="@drawable/icon"
+            android:theme="@android:style/Theme.Holo" />
 
     <Button android:id="@+id/recordsButton"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/main_records"
-            android:textSize="20sp"
-            android:layout_margin="15px"/>
+            android:textSize="24sp"
+            android:layout_margin="15dp"
+            android:drawableLeft="@drawable/scores"
+            android:theme="@android:style/Theme.Holo"/>
 
     <Button android:id="@+id/moreAppsButton"
             android:layout_width="fill_parent"

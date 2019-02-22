@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Тест внимания</string>
-    <string name="main_title">Главное меню</string>
     <string name="main_records">Лучшие результаты</string>
     <string name="main_more_apps"><u>Другие приложения</u></string>
     <string name="main_rate_app"><u>Оценить приложение</u></string>

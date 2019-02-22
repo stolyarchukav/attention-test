@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Prova di attenzione</string>
-    <string name="main_title">Menu principale</string>
     <string name="main_digital_sequence">Scegliere la prova</string>
     <string name="main_records">Punteggi</string>
     <string name="main_more_apps"><u>Ottenere più applicazioni</u></string>
