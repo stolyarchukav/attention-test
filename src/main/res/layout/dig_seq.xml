@@ -14,7 +14,7 @@
                       android:gravity="center"
                       android:layout_height="wrap_content"
                       android:textSize="24sp"
-                      android:layout_margin="6px"
+                      android:layout_margin="6dp"
                       android:text="@string/dig_seq_level"
                       android:textColor="@color/title"/>
 
@@ -23,56 +23,60 @@
                       android:layout_height="wrap_content"
                       android:text="@string/dig_seq_hide_completed"
                       android:textSize="16sp"
-                      android:layout_margin="6px"/>
+                      android:layout_margin="6dp"/>
 
             <CheckBox android:id="@+id/varFontSize"
                       android:layout_width="fill_parent"
                       android:layout_height="wrap_content"
                       android:text="@string/dig_seq_var_font_size"
                       android:textSize="16sp"
-                      android:layout_margin="6px"/>
+                      android:layout_margin="6dp"/>
 
             <CheckBox android:id="@+id/varFontColor"
                       android:layout_width="fill_parent"
                       android:layout_height="wrap_content"
                       android:text="@string/dig_seq_var_font_color"
                       android:textSize="16sp"
-                      android:layout_margin="8px"/>
+                      android:layout_margin="8dp"/>
 
             <CheckBox android:id="@+id/reverseOrder"
                       android:layout_width="fill_parent"
                       android:layout_height="wrap_content"
                       android:text="@string/dig_seq_reverse_order"
                       android:textSize="16sp"
-                      android:layout_margin="8px"/>
+                      android:layout_margin="8dp"/>
 
             <Button android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/dig_seq_size_3"
                     android:textSize="16sp"
-                    android:layout_margin="8px"
-                    android:id="@+id/digSeq3"/>
+                    android:layout_margin="8dp"
+                    android:id="@+id/digSeq3"
+                    android:theme="@android:style/Theme.Holo"/>
 
             <Button android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/dig_seq_size_4"
                     android:textSize="16sp"
-                    android:layout_margin="8px"
-                    android:id="@+id/digSeq4"/>
+                    android:layout_margin="8dp"
+                    android:id="@+id/digSeq4"
+                    android:theme="@android:style/Theme.Holo"/>
 
             <Button android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/dig_seq_size_5"
                     android:textSize="16sp"
-                    android:layout_margin="8px"
-                    android:id="@+id/digSeq5"/>
+                    android:layout_margin="8dp"
+                    android:id="@+id/digSeq5"
+                    android:theme="@android:style/Theme.Holo"/>
 
             <Button android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/dig_seq_size_6"
                     android:textSize="16sp"
-                    android:layout_margin="8px"
-                    android:id="@+id/digSeq6"/>
+                    android:layout_margin="8dp"
+                    android:id="@+id/digSeq6"
+                    android:theme="@android:style/Theme.Holo"/>
 
         </LinearLayout>
 
