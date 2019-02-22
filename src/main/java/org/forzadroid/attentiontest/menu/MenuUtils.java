@@ -24,10 +24,12 @@ public class MenuUtils {
 	private static boolean createOptionsMenu(Menu menu, Activity activity, boolean actionBar) {
 		if (actionBar) {
 			ActionBar ab = activity.getActionBar();
-			ab.setHomeButtonEnabled(true);
-			ab.setDisplayHomeAsUpEnabled(true);
-			ab.setTitle(activity.getTitle());
-			ab.show();
+			if (ab != null) {
+				ab.setHomeButtonEnabled(true);
+				ab.setDisplayHomeAsUpEnabled(true);
+				ab.setTitle(activity.getTitle());
+				ab.show();
+			}
 		}
 		MenuInflater inflater = activity.getMenuInflater();
 	    inflater.inflate(R.menu.main_menu, menu);
