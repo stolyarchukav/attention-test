@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -45,14 +46,17 @@ public class DigitalSquareActivity extends Activity {
 		
 		size = (Integer) getIntent().getExtras().get(Constants.DIG_SQUARE_SIZE);
 	    final int count = size * size;
+	    if (size > 4) {
+			setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+		}
 
         appState = (AttentionTestApplication) getApplicationContext();
         hideCompleted = appState.isHideCompletedSquares();
         final boolean reverse = appState.isReverse();
         final List<Integer> values = appState.getValues(size);
         final AtomicInteger next = appState.getNext();
-	    final Set<Button> buttons = new HashSet<Button>();
-	    
+	    final Set<Button> buttons = new HashSet<>();
+
 	    TableLayout layout = new TableLayout(this) {
 			@Override
 			protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
@@ -65,7 +69,9 @@ public class DigitalSquareActivity extends Activity {
 			    super.onMeasure(widthMeasureSpec, heightMeasureSpec);
 			}
 		};
-		
+
+	    layout.setStretchAllColumns(true);
+
 		Iterator<Integer> iterator = values.iterator();
 	    
 	    for (int q = 0; q < size; q++) {
@@ -73,8 +79,8 @@ public class DigitalSquareActivity extends Activity {
         	tableRow.setId(q);
         	tableRow.setBaselineAligned(false);
         	tableRow.setLayoutParams(new ViewGroup.LayoutParams(
-        			ViewGroup.LayoutParams.FILL_PARENT,
-        			ViewGroup.LayoutParams.FILL_PARENT));
+        			ViewGroup.LayoutParams.MATCH_PARENT,
+        			ViewGroup.LayoutParams.MATCH_PARENT));
 
         	for (int w = 0; w < size; w++) {
         		final Button button = new Button(this);
@@ -84,8 +90,8 @@ public class DigitalSquareActivity extends Activity {
                 button.setTag(number);
                 button.setPadding(0, 0, 0, 0);
                 TableRow.LayoutParams buttonParams = new TableRow.LayoutParams(
-                		ViewGroup.LayoutParams.FILL_PARENT,
-                		ViewGroup.LayoutParams.FILL_PARENT);
+                		ViewGroup.LayoutParams.MATCH_PARENT,
+                		ViewGroup.LayoutParams.MATCH_PARENT);
                 buttonParams.setMargins(MARGIN, MARGIN, MARGIN, MARGIN);
                 button.setLayoutParams(buttonParams);
                 button.setTextSize(appState.getFontSize(size));
@@ -114,14 +120,14 @@ public class DigitalSquareActivity extends Activity {
                 tableRow.addView(button);
         	}
         	layout.addView(tableRow, new TableLayout.LayoutParams(
-        			ViewGroup.LayoutParams.FILL_PARENT,
-        			ViewGroup.LayoutParams.FILL_PARENT));
+        			ViewGroup.LayoutParams.MATCH_PARENT,
+        			ViewGroup.LayoutParams.MATCH_PARENT));
         }
-		
+
 	    parent.addView(layout);
 	    
 	    titleTimerTask = new TitleTimerTask();
-	    titleTimerTask.execute(new Void[0]);
+	    titleTimerTask.execute();
 	    
 		appState.startDigitTest();
 	}
