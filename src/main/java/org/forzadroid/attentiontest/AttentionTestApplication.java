@@ -44,6 +44,7 @@ public class AttentionTestApplication extends Application {
 		varFontSize = preferences.getBoolean(VAR_FONT_SIZE_KEY, false);
 		varFontColor = preferences.getBoolean(VAR_FONT_COLOR_KEY, false);
         reverse = preferences.getBoolean(REVERSE_KEY, false);
+        hideCompletedSquares = preferences.getBoolean(HIDE_COMPLETED_SQUARES_KEY, true);
 	}
 
     private void loadRecordItem(String key) {
