@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">एकाग्रता परीक्षण</string>
+    <string name="main_digital_sequence">परीक्षण चुनें</string>
+    <string name="main_records">स्कोर</string>
+    <string name="main_more_apps"><u>और ऐप्स प्राप्त करें</u></string>
+    <string name="main_rate_app">ऐप को रेट करें</string>
+    <string name="dig_seq_level">स्तर चुनें</string>
+    <string name="dig_seq_hide_completed">पूरे हुए वर्गों को छुपाएं</string>
+    <string name="dig_seq_var_font_size">विभिन्न फ़ॉन्ट आकार</string>
+    <string name="dig_seq_var_font_color">विभिन्न फ़ॉन्ट रंग</string>
+    <string name="dig_seq_reverse_order">विपरीत क्रम</string>
+    <string name="dig_seq_size_3">आसान (3x3)</string>
+    <string name="dig_seq_size_4">मध्यम (4x4)</string>
+    <string name="dig_seq_size_5">कठिन (5x5)</string>
+    <string name="dig_seq_size_6">बहुत कठिन (6x6)</string>
+    <string name="dig_square_title">अगले नंबर को छुएं</string>
+    <string name="dig_square_title_reverse">पिछले नंबर को छुएं (विपरीत क्रम)</string>
+    <string name="dig_square_new_record">बधाई हो! आपने नया रिकॉर्ड बनाया है</string>
+    <string name="dig_square_without_record">बहुत अच्छा। आपने किया</string>
+    <string name="dig_square_seconds">सेकंड</string>
+    <string name="dig_square_start_again">फिर से शुरू करें</string>
+    <string name="dig_square_finish">समाप्त</string>
+    <string name="records_clear">रीसेट</string>
+    <string name="records_sec">सेकंड</string>
+    <string name="records_var_font_size">विभिन्न फ़ॉन्ट आकार</string>
+    <string name="records_fixed_font_size">निश्चित फ़ॉन्ट आकार</string>
+    <string name="records_var_font_color">विभिन्न फ़ॉन्ट रंग</string>
+    <string name="records_fixed_font_color">निश्चित फ़ॉन्ट रंग</string>
+    <string name="records_reverse_order">विपरीत क्रम</string>
+    <string name="records_direct_order">सीधा क्रम</string>
+</resources>

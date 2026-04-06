@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Tes Perhatian</string>
+    <string name="main_digital_sequence">Pilih tes</string>
+    <string name="main_records">Skor</string>
+    <string name="main_more_apps"><u>Dapatkan aplikasi lainnya</u></string>
+    <string name="main_rate_app">Beri nilai aplikasi</string>
+
+    <string name="dig_seq_level">Pilih level</string>
+    <string name="dig_seq_hide_completed">Sembunyikan kotak yang selesai</string>
+    <string name="dig_seq_var_font_size">Ukuran font bervariasi</string>
+    <string name="dig_seq_var_font_color">Warna font bervariasi</string>
+    <string name="dig_seq_reverse_order">Urutan terbalik</string>
+    <string name="dig_seq_size_3">mudah (3x3)</string>
+    <string name="dig_seq_size_4">sedang (4x4)</string>
+    <string name="dig_seq_size_5">sulit (5x5)</string>
+    <string name="dig_seq_size_6">sangat sulit (6x6)</string>
+    <string name="dig_square_title">Sentuh nomor berikutnya</string>
+    <string name="dig_square_title_reverse">Sentuh nomor sebelumnya (urutan terbalik)</string>
+    <string name="dig_square_new_record">Selamat! Anda membuat rekor baru</string>
+    <string name="dig_square_without_record">Sangat bagus. Anda selesai dalam</string>
+    <string name="dig_square_seconds">detik</string>
+    <string name="dig_square_start_again">Mulai lagi</string>
+    <string name="dig_square_finish">Selesai</string>
+
+    <string name="records_clear">Atur ulang</string>
+    <string name="records_sec">detik</string>
+    <string name="records_var_font_size">ukuran font bervariasi</string>
+    <string name="records_fixed_font_size">ukuran font tetap</string>
+    <string name="records_var_font_color">warna font bervariasi</string>
+    <string name="records_fixed_font_color">warna font tetap</string>
+    <string name="records_reverse_order">urutan terbalik</string>
+    <string name="records_direct_order">urutan langsung</string>
+</resources>

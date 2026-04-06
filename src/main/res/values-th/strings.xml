@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">แบบทดสอบสมาธิ</string>
+    <string name="main_digital_sequence">เลือกแบบทดสอบ</string>
+    <string name="main_records">คะแนน</string>
+    <string name="main_more_apps"><u>รับแอปเพิ่มเติม</u></string>
+    <string name="main_rate_app">ให้คะแนนแอป</string>
+
+    <string name="dig_seq_level">เลือกระดับ</string>
+    <string name="dig_seq_hide_completed">ซ่อนช่องที่เสร็จแล้ว</string>
+    <string name="dig_seq_var_font_size">ขนาดตัวอักษรหลากหลาย</string>
+    <string name="dig_seq_var_font_color">สีตัวอักษรหลากหลาย</string>
+    <string name="dig_seq_reverse_order">ลำดับย้อนกลับ</string>
+    <string name="dig_seq_size_3">ง่าย (3x3)</string>
+    <string name="dig_seq_size_4">ปานกลาง (4x4)</string>
+    <string name="dig_seq_size_5">ยาก (5x5)</string>
+    <string name="dig_seq_size_6">ยากมาก (6x6)</string>
+    <string name="dig_square_title">แตะตัวเลขถัดไป</string>
+    <string name="dig_square_title_reverse">แตะตัวเลขก่อนหน้า (ลำดับย้อนกลับ)</string>
+    <string name="dig_square_new_record">ยินดีด้วย! คุณทำสถิติใหม่ได้</string>
+    <string name="dig_square_without_record">ดีมาก คุณทำเสร็จในเวลา</string>
+    <string name="dig_square_seconds">วินาที</string>
+    <string name="dig_square_start_again">เริ่มใหม่</string>
+    <string name="dig_square_finish">เสร็จสิ้น</string>
+
+    <string name="records_clear">รีเซ็ต</string>
+    <string name="records_sec">วินาที</string>
+    <string name="records_var_font_size">ขนาดตัวอักษรหลากหลาย</string>
+    <string name="records_fixed_font_size">ขนาดตัวอักษรคงที่</string>
+    <string name="records_var_font_color">สีตัวอักษรหลากหลาย</string>
+    <string name="records_fixed_font_color">สีตัวอักษรคงที่</string>
+    <string name="records_reverse_order">ลำดับย้อนกลับ</string>
+    <string name="records_direct_order">ลำดับปกติ</string>
+</resources>

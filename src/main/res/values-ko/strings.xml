@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">주의력 테스트</string>
+    <string name="main_digital_sequence">테스트 선택</string>
+    <string name="main_records">점수</string>
+    <string name="main_more_apps"><u>더 많은 앱 보기</u></string>
+    <string name="main_rate_app">앱 평가하기</string>
+    <string name="dig_seq_level">레벨 선택</string>
+    <string name="dig_seq_hide_completed">완료된 칸 숨기기</string>
+    <string name="dig_seq_var_font_size">다양한 글꼴 크기</string>
+    <string name="dig_seq_var_font_color">다양한 글꼴 색상</string>
+    <string name="dig_seq_reverse_order">역순</string>
+    <string name="dig_seq_size_3">쉬움 (3x3)</string>
+    <string name="dig_seq_size_4">보통 (4x4)</string>
+    <string name="dig_seq_size_5">어려움 (5x5)</string>
+    <string name="dig_seq_size_6">매우 어려움 (6x6)</string>
+    <string name="dig_square_title">다음 숫자를 터치하세요</string>
+    <string name="dig_square_title_reverse">이전 숫자를 터치하세요 (역순)</string>
+    <string name="dig_square_new_record">축하합니다! 새로운 기록을 세웠습니다</string>
+    <string name="dig_square_without_record">잘하셨습니다. 소요 시간:</string>
+    <string name="dig_square_seconds">초</string>
+    <string name="dig_square_start_again">다시 시작</string>
+    <string name="dig_square_finish">종료</string>
+    <string name="records_clear">초기화</string>
+    <string name="records_sec">초</string>
+    <string name="records_var_font_size">다양한 글꼴 크기</string>
+    <string name="records_fixed_font_size">고정된 글꼴 크기</string>
+    <string name="records_var_font_color">다양한 글꼴 색상</string>
+    <string name="records_fixed_font_color">고정된 글꼴 색상</string>
+    <string name="records_reverse_order">역순</string>
+    <string name="records_direct_order">정순</string>
+</resources>

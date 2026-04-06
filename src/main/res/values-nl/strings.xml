@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Aandachtstest</string>
+    <string name="main_digital_sequence">Kies de test</string>
+    <string name="main_records">Scores</string>
+    <string name="main_more_apps"><u>Meer apps</u></string>
+    <string name="main_rate_app">Beoordeel app</string>
+
+    <string name="dig_seq_level">Kies niveau</string>
+    <string name="dig_seq_hide_completed">Verberg voltooide vakken</string>
+    <string name="dig_seq_var_font_size">Wisselende lettergrootte</string>
+    <string name="dig_seq_var_font_color">Wisselende letterkleur</string>
+    <string name="dig_seq_reverse_order">Omgekeerde volgorde</string>
+    <string name="dig_seq_size_3">gemakkelijk (3x3)</string>
+    <string name="dig_seq_size_4">gemiddeld (4x4)</string>
+    <string name="dig_seq_size_5">moeilijk (5x5)</string>
+    <string name="dig_seq_size_6">zeer moeilijk (6x6)</string>
+    <string name="dig_square_title">Raak het volgende getal aan</string>
+    <string name="dig_square_title_reverse">Raak het vorige getal aan (omgekeerd)</string>
+    <string name="dig_square_new_record">Gefeliciteerd! Je hebt een nieuw record</string>
+    <string name="dig_square_without_record">Heel goed. Je deed er</string>
+    <string name="dig_square_seconds">seconden over</string>
+    <string name="dig_square_start_again">Opnieuw beginnen</string>
+    <string name="dig_square_finish">Stoppen</string>
+
+    <string name="records_clear">Reset</string>
+    <string name="records_sec">sec</string>
+    <string name="records_var_font_size">wisselende lettergrootte</string>
+    <string name="records_fixed_font_size">vaste lettergrootte</string>
+    <string name="records_var_font_color">wisselende letterkleur</string>
+    <string name="records_fixed_font_color">vaste letterkleur</string>
+    <string name="records_reverse_order">omgekeerde volgorde</string>
+    <string name="records_direct_order">directe volgorde</string>
+</resources>

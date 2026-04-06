@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Τεστ Προσοχής</string>
+    <string name="main_digital_sequence">Επιλέξτε τεστ</string>
+    <string name="main_records">Βαθμολογίες</string>
+    <string name="main_more_apps"><u>Περισσότερες εφαρμογές</u></string>
+    <string name="main_rate_app">Βαθμολογήστε την εφαρμογή</string>
+
+    <string name="dig_seq_level">Επιλέξτε επίπεδο</string>
+    <string name="dig_seq_hide_completed">Απόκρυψη ολοκληρωμένων τετραγώνων</string>
+    <string name="dig_seq_var_font_size">Μεταβλητό μέγεθος γραμματοσειράς</string>
+    <string name="dig_seq_var_font_color">Μεταβλητό χρώμα γραμματοσειράς</string>
+    <string name="dig_seq_reverse_order">Αντίστροφη σειρά</string>
+    <string name="dig_seq_size_3">εύκολο (3x3)</string>
+    <string name="dig_seq_size_4">μέτριο (4x4)</string>
+    <string name="dig_seq_size_5">δύσκολο (5x5)</string>
+    <string name="dig_seq_size_6">πολύ δύσκολο (6x6)</string>
+    <string name="dig_square_title">Αγγίξτε τον επόμενο αριθμό</string>
+    <string name="dig_square_title_reverse">Αγγίξτε τον προηγούμενο αριθμό (αντίστροφα)</string>
+    <string name="dig_square_new_record">Συγχαρητήρια! Κάνατε νέο ρεκόρ</string>
+    <string name="dig_square_without_record">Πολύ καλά. Χρόνος:</string>
+    <string name="dig_square_seconds">δευτερόλεπτα</string>
+    <string name="dig_square_start_again">Ξεκινήστε πάλι</string>
+    <string name="dig_square_finish">Τέλος</string>
+
+    <string name="records_clear">Επαναφορά</string>
+    <string name="records_sec">δευτ</string>
+    <string name="records_var_font_size">μεταβλητό μέγεθος γραμματοσειράς</string>
+    <string name="records_fixed_font_size">σταθερό μέγεθος γραμματοσειράς</string>
+    <string name="records_var_font_color">μεταβλητό χρώμα γραμματοσειράς</string>
+    <string name="records_fixed_font_color">σταθερό χρώμα γραμματοσειράς</string>
+    <string name="records_reverse_order">αντίστροφη σειρά</string>
+    <string name="records_direct_order">άμεση σειρά</string>
+</resources>

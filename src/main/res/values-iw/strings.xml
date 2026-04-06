@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">מבחן תשומת לב</string>
+    <string name="main_digital_sequence">בחר את המבחן</string>
+    <string name="main_records">שיאים</string>
+    <string name="main_more_apps"><u>אפליקציות נוספות</u></string>
+    <string name="main_rate_app">דרג את האפליקציה</string>
+
+    <string name="dig_seq_level">בחר רמה</string>
+    <string name="dig_seq_hide_completed">הסתר ריבועים שהושלמו</string>
+    <string name="dig_seq_var_font_size">גודל גופן משתנה</string>
+    <string name="dig_seq_var_font_color">צבע גופן משתנה</string>
+    <string name="dig_seq_reverse_order">סדר הפוך</string>
+    <string name="dig_seq_size_3">קל (3x3)</string>
+    <string name="dig_seq_size_4">בינוני (4x4)</string>
+    <string name="dig_seq_size_5">קשה (5x5)</string>
+    <string name="dig_seq_size_6">קשה מאוד (6x6)</string>
+    <string name="dig_square_title">גע במספר הבא</string>
+    <string name="dig_square_title_reverse">גע במספר הקודם (סדר הפוך)</string>
+    <string name="dig_square_new_record">כל הכבוד! קבעת שיא חדש</string>
+    <string name="dig_square_without_record">טוב מאוד. סיימת ב-</string>
+    <string name="dig_square_seconds">שניות</string>
+    <string name="dig_square_start_again">התחל מחדש</string>
+    <string name="dig_square_finish">סיום</string>
+
+    <string name="records_clear">איפוס</string>
+    <string name="records_sec">שניות</string>
+    <string name="records_var_font_size">גודל גופן משתנה</string>
+    <string name="records_fixed_font_size">גודל גופן קבוע</string>
+    <string name="records_var_font_color">צבע גופן משתנה</string>
+    <string name="records_fixed_font_color">צבע גופן קבוע</string>
+    <string name="records_reverse_order">סדר הפוך</string>
+    <string name="records_direct_order">סדר ישיר</string>
+</resources>

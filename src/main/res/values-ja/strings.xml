@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">注意力テスト</string>
+    <string name="main_digital_sequence">テストを選択</string>
+    <string name="main_records">スコア</string>
+    <string name="main_more_apps"><u>他のアプリを見る</u></string>
+    <string name="main_rate_app">アプリを評価</string>
+    <string name="dig_seq_level">レベルを選択</string>
+    <string name="dig_seq_hide_completed">完了したマスを隠す</string>
+    <string name="dig_seq_var_font_size">フォントサイズを変更</string>
+    <string name="dig_seq_var_font_color">フォントの色を変更</string>
+    <string name="dig_seq_reverse_order">逆順</string>
+    <string name="dig_seq_size_3">初級 (3x3)</string>
+    <string name="dig_seq_size_4">中級 (4x4)</string>
+    <string name="dig_seq_size_5">上級 (5x5)</string>
+    <string name="dig_seq_size_6">最上級 (6x6)</string>
+    <string name="dig_square_title">次の数字をタッチ</string>
+    <string name="dig_square_title_reverse">前の数字をタッチ (逆順)</string>
+    <string name="dig_square_new_record">おめでとうございます！新記録達成です</string>
+    <string name="dig_square_without_record">お疲れ様でした。タイム：</string>
+    <string name="dig_square_seconds">秒</string>
+    <string name="dig_square_start_again">もう一度</string>
+    <string name="dig_square_finish">終了</string>
+    <string name="records_clear">リセット</string>
+    <string name="records_sec">秒</string>
+    <string name="records_var_font_size">フォントサイズ可変</string>
+    <string name="records_fixed_font_size">フォントサイズ固定</string>
+    <string name="records_var_font_color">フォントの色可変</string>
+    <string name="records_fixed_font_color">フォントの色固定</string>
+    <string name="records_reverse_order">逆順</string>
+    <string name="records_direct_order">正順</string>
+</resources>

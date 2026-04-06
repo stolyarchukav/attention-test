@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Prueba de Atención</string>
+    <string name="main_digital_sequence">Elegir la prueba</string>
+    <string name="main_records">Puntuaciones</string>
+    <string name="main_more_apps"><u>Obtener más aplicaciones</u></string>
+    <string name="main_rate_app">Calificar aplicación</string>
+    <string name="dig_seq_level">Seleccionar nivel</string>
+    <string name="dig_seq_hide_completed">Ocultar cuadros completados</string>
+    <string name="dig_seq_var_font_size">Varios tamaños de fuente</string>
+    <string name="dig_seq_var_font_color">Varios colores de fuente</string>
+    <string name="dig_seq_reverse_order">Orden inverso</string>
+    <string name="dig_seq_size_3">fácil (3x3)</string>
+    <string name="dig_seq_size_4">medio (4x4)</string>
+    <string name="dig_seq_size_5">difícil (5x5)</string>
+    <string name="dig_seq_size_6">muy difícil (6x6)</string>
+    <string name="dig_square_title">Toca el siguiente número</string>
+    <string name="dig_square_title_reverse">Toca el número anterior (orden inverso)</string>
+    <string name="dig_square_new_record">¡Felicidades! Has establecido un nuevo récord</string>
+    <string name="dig_square_without_record">Muy bien. Lo has hecho en</string>
+    <string name="dig_square_seconds">segundos</string>
+    <string name="dig_square_start_again">Empezar de nuevo</string>
+    <string name="dig_square_finish">Terminar</string>
+    <string name="records_clear">Reiniciar</string>
+    <string name="records_sec">seg</string>
+    <string name="records_var_font_size">tamaño de fuente variable</string>
+    <string name="records_fixed_font_size">tamaño de fuente fijo</string>
+    <string name="records_var_font_color">color de fuente variable</string>
+    <string name="records_fixed_font_color">color de fuente fijo</string>
+    <string name="records_reverse_order">orden inverso</string>
+    <string name="records_direct_order">orden directo</string>
+</resources>

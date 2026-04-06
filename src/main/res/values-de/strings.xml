@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Aufmerksamkeitstest</string>
+    <string name="main_digital_sequence">Test auswählen</string>
+    <string name="main_records">Ergebnisse</string>
+    <string name="main_more_apps"><u>Mehr Apps laden</u></string>
+    <string name="main_rate_app">App bewerten</string>
+    <string name="dig_seq_level">Level wählen</string>
+    <string name="dig_seq_hide_completed">Abgeschlossene Quadrate ausblenden</string>
+    <string name="dig_seq_var_font_size">Verschiedene Schriftgrößen</string>
+    <string name="dig_seq_var_font_color">Verschiedene Schriftfarben</string>
+    <string name="dig_seq_reverse_order">Umgekehrte Reihenfolge</string>
+    <string name="dig_seq_size_3">leicht (3x3)</string>
+    <string name="dig_seq_size_4">mittel (4x4)</string>
+    <string name="dig_seq_size_5">schwer (5x5)</string>
+    <string name="dig_seq_size_6">extra schwer (6x6)</string>
+    <string name="dig_square_title">Tippe die nächste Zahl an</string>
+    <string name="dig_square_title_reverse">Tippe die vorherige Zahl an (umgekehrt)</string>
+    <string name="dig_square_new_record">Glückwunsch! Du hast einen neuen Rekord aufgestellt</string>
+    <string name="dig_square_without_record">Sehr gut. Du hast gebraucht:</string>
+    <string name="dig_square_seconds">Sekunden</string>
+    <string name="dig_square_start_again">Nochmal versuchen</string>
+    <string name="dig_square_finish">Beenden</string>
+    <string name="records_clear">Zurücksetzen</string>
+    <string name="records_sec">Sek.</string>
+    <string name="records_var_font_size">variable Schriftgröße</string>
+    <string name="records_fixed_font_size">feste Schriftgröße</string>
+    <string name="records_var_font_color">variable Schriftfarbe</string>
+    <string name="records_fixed_font_color">feste Schriftfarbe</string>
+    <string name="records_reverse_order">umgekehrte Reihenfolge</string>
+    <string name="records_direct_order">direkte Reihenfolge</string>
+</resources>

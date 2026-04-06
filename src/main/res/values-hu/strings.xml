@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Figyelem Teszt</string>
+    <string name="main_digital_sequence">Válassz tesztet</string>
+    <string name="main_records">Eredmények</string>
+    <string name="main_more_apps"><u>További alkalmazások</u></string>
+    <string name="main_rate_app">Értékeld az alkalmazást</string>
+
+    <string name="dig_seq_level">Válassz szintet</string>
+    <string name="dig_seq_hide_completed">Befejezett mezők elrejtése</string>
+    <string name="dig_seq_var_font_size">Változó betűméret</string>
+    <string name="dig_seq_var_font_color">Változó betűszín</string>
+    <string name="dig_seq_reverse_order">Fordított sorrend</string>
+    <string name="dig_seq_size_3">könnyű (3x3)</string>
+    <string name="dig_seq_size_4">közepes (4x4)</string>
+    <string name="dig_seq_size_5">nehéz (5x5)</string>
+    <string name="dig_seq_size_6">nagyon nehéz (6x6)</string>
+    <string name="dig_square_title">Érintsd meg a következő számot</string>
+    <string name="dig_square_title_reverse">Érintsd meg az előző számot (fordítva)</string>
+    <string name="dig_square_new_record">Gratulálunk! Új rekordot döntöttél</string>
+    <string name="dig_square_without_record">Nagyon jó. Idő:</string>
+    <string name="dig_square_seconds">másodperc</string>
+    <string name="dig_square_start_again">Újrakezdés</string>
+    <string name="dig_square_finish">Befejezés</string>
+
+    <string name="records_clear">Visszaállítás</string>
+    <string name="records_sec">mp</string>
+    <string name="records_var_font_size">változó betűméret</string>
+    <string name="records_fixed_font_size">fix betűméret</string>
+    <string name="records_var_font_color">változó betűszín</string>
+    <string name="records_fixed_font_color">fix betűszín</string>
+    <string name="records_reverse_order">fordított sorrend</string>
+    <string name="records_direct_order">közvetlen sorrend</string>
+</resources>

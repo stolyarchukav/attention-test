@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Uppmärksamhetstest</string>
+    <string name="main_digital_sequence">Välj test</string>
+    <string name="main_records">Poäng</string>
+    <string name="main_more_apps"><u>Fler appar</u></string>
+    <string name="main_rate_app">Betygsätt appen</string>
+
+    <string name="dig_seq_level">Välj nivå</string>
+    <string name="dig_seq_hide_completed">Dölj slutförda rutor</string>
+    <string name="dig_seq_var_font_size">Varierande fontstorlek</string>
+    <string name="dig_seq_var_font_color">Varierande fontfärg</string>
+    <string name="dig_seq_reverse_order">Omvänd ordning</string>
+    <string name="dig_seq_size_3">lätt (3x3)</string>
+    <string name="dig_seq_size_4">medel (4x4)</string>
+    <string name="dig_seq_size_5">svår (5x5)</string>
+    <string name="dig_seq_size_6">extra svår (6x6)</string>
+    <string name="dig_square_title">Tryck på nästa siffra</string>
+    <string name="dig_square_title_reverse">Tryck på föregående siffra (omvänd ordning)</string>
+    <string name="dig_square_new_record">Grattis! Du har satt ett nytt rekord</string>
+    <string name="dig_square_without_record">Mycket bra. Du klarade det på</string>
+    <string name="dig_square_seconds">sekunder</string>
+    <string name="dig_square_start_again">Börja om</string>
+    <string name="dig_square_finish">Avsluta</string>
+
+    <string name="records_clear">Återställ</string>
+    <string name="records_sec">sek</string>
+    <string name="records_var_font_size">varierande fontstorlek</string>
+    <string name="records_fixed_font_size">fast fontstorlek</string>
+    <string name="records_var_font_color">varierande fontfärg</string>
+    <string name="records_fixed_font_color">fast fontfärg</string>
+    <string name="records_reverse_order">omvänd ordning</string>
+    <string name="records_direct_order">direkt ordning</string>
+</resources>

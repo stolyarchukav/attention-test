@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">注意力测试</string>
+    <string name="main_digital_sequence">选择测试</string>
+    <string name="main_records">分数</string>
+    <string name="main_more_apps"><u>获取更多应用</u></string>
+    <string name="main_rate_app">评价应用</string>
+    <string name="dig_seq_level">选择级别</string>
+    <string name="dig_seq_hide_completed">隐藏已完成的方块</string>
+    <string name="dig_seq_var_font_size">各种字体大小</string>
+    <string name="dig_seq_var_font_color">各种字体颜色</string>
+    <string name="dig_seq_reverse_order">反向排序</string>
+    <string name="dig_seq_size_3">容易 (3x3)</string>
+    <string name="dig_seq_size_4">中等 (4x4)</string>
+    <string name="dig_seq_size_5">困难 (5x5)</string>
+    <string name="dig_seq_size_6">非常困难 (6x6)</string>
+    <string name="dig_square_title">点击下一个数字</string>
+    <string name="dig_square_title_reverse">点击上一个数字 (反向排序)</string>
+    <string name="dig_square_new_record">恭喜！你创下了新纪录</string>
+    <string name="dig_square_without_record">非常棒。你完成了</string>
+    <string name="dig_square_seconds">秒</string>
+    <string name="dig_square_start_again">重新开始</string>
+    <string name="dig_square_finish">完成</string>
+    <string name="records_clear">重置</string>
+    <string name="records_sec">秒</string>
+    <string name="records_var_font_size">各种字体大小</string>
+    <string name="records_fixed_font_size">固定字体大小</string>
+    <string name="records_var_font_color">各种字体颜色</string>
+    <string name="records_fixed_font_color">固定字体颜色</string>
+    <string name="records_reverse_order">反向排序</string>
+    <string name="records_direct_order">正向排序</string>
+</resources>

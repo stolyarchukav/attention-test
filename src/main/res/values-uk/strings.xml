@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Тест на увагу</string>
+    <string name="main_digital_sequence">Виберіть тест</string>
+    <string name="main_records">Результати</string>
+    <string name="main_more_apps"><u>Більше додатків</u></string>
+    <string name="main_rate_app">Оцінити додаток</string>
+
+    <string name="dig_seq_level">Виберіть рівень</string>
+    <string name="dig_seq_hide_completed">Приховати пройдені клітинки</string>
+    <string name="dig_seq_var_font_size">Різний розмір шрифту</string>
+    <string name="dig_seq_var_font_color">Різний колір шрифту</string>
+    <string name="dig_seq_reverse_order">Зворотний порядок</string>
+    <string name="dig_seq_size_3">легко (3x3)</string>
+    <string name="dig_seq_size_4">середньо (4x4)</string>
+    <string name="dig_seq_size_5">складно (5x5)</string>
+    <string name="dig_seq_size_6">дуже складно (6x6)</string>
+    <string name="dig_square_title">Торкніться наступного числа</string>
+    <string name="dig_square_title_reverse">Торкніться попереднього числа (зворотний порядок)</string>
+    <string name="dig_square_new_record">Вітаємо! Ви встановили новий рекорд</string>
+    <string name="dig_square_without_record">Дуже добре. Ваш час:</string>
+    <string name="dig_square_seconds">секунд</string>
+    <string name="dig_square_start_again">Почати знову</string>
+    <string name="dig_square_finish">Завершити</string>
+
+    <string name="records_clear">Скинути</string>
+    <string name="records_sec">сек</string>
+    <string name="records_var_font_size">різний розмір шрифту</string>
+    <string name="records_fixed_font_size">фіксований розмір шрифту</string>
+    <string name="records_var_font_color">різний колір шрифту</string>
+    <string name="records_fixed_font_color">фіксований колір шрифту</string>
+    <string name="records_reverse_order">зворотний порядок</string>
+    <string name="records_direct_order">прямий порядок</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Opmærksomhedstest</string>
+    <string name="main_digital_sequence">Vælg test</string>
+    <string name="main_records">Resultater</string>
+    <string name="main_more_apps"><u>Hent flere apps</u></string>
+    <string name="main_rate_app">Bedøm appen</string>
+
+    <string name="dig_seq_level">Vælg niveau</string>
+    <string name="dig_seq_hide_completed">Skjul færdige felter</string>
+    <string name="dig_seq_var_font_size">Varierende skriftstørrelse</string>
+    <string name="dig_seq_var_font_color">Varierende skriftfarve</string>
+    <string name="dig_seq_reverse_order">Omvendt rækkefølge</string>
+    <string name="dig_seq_size_3">let (3x3)</string>
+    <string name="dig_seq_size_4">middel (4x4)</string>
+    <string name="dig_seq_size_5">svær (5x5)</string>
+    <string name="dig_seq_size_6">ekstra svær (6x6)</string>
+    <string name="dig_square_title">Tryk på det næste tal</string>
+    <string name="dig_square_title_reverse">Tryk på det forrige tal (omvendt rækkefølge)</string>
+    <string name="dig_square_new_record">Tillykke! Du har sat en ny rekord</string>
+    <string name="dig_square_without_record">Meget godt. Du gjorde det på</string>
+    <string name="dig_square_seconds">sekunder</string>
+    <string name="dig_square_start_again">Start forfra</string>
+    <string name="dig_square_finish">Afslut</string>
+
+    <string name="records_clear">Nulstil</string>
+    <string name="records_sec">sek</string>
+    <string name="records_var_font_size">varierende skriftstørrelse</string>
+    <string name="records_fixed_font_size">fast skriftstørrelse</string>
+    <string name="records_var_font_color">varierende skriftfarve</string>
+    <string name="records_fixed_font_color">fast skriftfarve</string>
+    <string name="records_reverse_order">omvendt rækkefølge</string>
+    <string name="records_direct_order">direkte rækkefølge</string>
+</resources>
