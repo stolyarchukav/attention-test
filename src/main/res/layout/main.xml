@@ -71,11 +71,9 @@
             android:layout_marginTop="8dp"
             android:onClick="onClickRateApp"
             android:text="@string/main_rate_app"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/moreAppsButton"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintTop_toBottomOf="@id/moreAppsButton" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
