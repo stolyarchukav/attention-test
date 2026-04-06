@@ -1,6 +1,6 @@
 package org.forzadroid.attentiontest;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import org.forzadroid.attentiontest.menu.MenuUtils;
 
-public class AttentionTest extends Activity {
+public class AttentionTest extends AppCompatActivity {
     
     @Override
     public void onCreate(Bundle savedInstanceState) {

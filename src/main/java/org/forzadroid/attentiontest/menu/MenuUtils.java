@@ -1,6 +1,7 @@
 package org.forzadroid.attentiontest.menu;
 
-import android.app.ActionBar;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
@@ -22,8 +23,8 @@ public class MenuUtils {
 	}
 
 	private static boolean createOptionsMenu(Menu menu, Activity activity, boolean actionBar) {
-		if (actionBar) {
-			ActionBar ab = activity.getActionBar();
+		if (actionBar && activity instanceof AppCompatActivity) {
+			ActionBar ab = ((AppCompatActivity) activity).getSupportActionBar();
 			if (ab != null) {
 				ab.setHomeButtonEnabled(true);
 				ab.setDisplayHomeAsUpEnabled(true);
@@ -37,16 +38,13 @@ public class MenuUtils {
 	}
 	
 	public static boolean optionsItemSelected(MenuItem item, Activity activity) {
-		switch (item.getItemId()) {
-			case android.R.id.home :
-				activity.startActivity(new Intent(activity, AttentionTest.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
-				break;
-			case R.id.menu_records :
-				activity.startActivity(new Intent(activity, RecordsActivity.class));
-				break;
-			case R.id.menu_sequence:
-				activity.startActivity(new Intent(activity, DigitalSequenceActivity.class));
-				break;
+		int id = item.getItemId();
+		if (id == android.R.id.home) {
+			activity.startActivity(new Intent(activity, AttentionTest.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+		} else if (id == R.id.menu_records) {
+			activity.startActivity(new Intent(activity, RecordsActivity.class));
+		} else if (id == R.id.menu_sequence) {
+			activity.startActivity(new Intent(activity, DigitalSequenceActivity.class));
 		}
 		return true;
 	}

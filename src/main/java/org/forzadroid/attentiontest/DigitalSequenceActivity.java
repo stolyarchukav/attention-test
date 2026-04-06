@@ -1,6 +1,6 @@
 package org.forzadroid.attentiontest;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,7 +11,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import org.forzadroid.attentiontest.menu.MenuUtils;
 
-public class DigitalSequenceActivity extends Activity {
+public class DigitalSequenceActivity extends AppCompatActivity {
 
 	private AttentionTestApplication appState;
 

@@ -1,7 +1,7 @@
 package org.forzadroid.attentiontest;
 
-import android.app.Activity;
-import android.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class DigitalSquareActivity extends Activity {
+public class DigitalSquareActivity extends AppCompatActivity {
 
 	private static final int MARGIN = 2;
 	private AttentionTestApplication appState;
