@@ -1,7 +1,11 @@
 package org.forzadroid.attentiontest;
 
+import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AlertDialog;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -37,9 +41,15 @@ public class DigitalSquareActivity extends AppCompatActivity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		EdgeToEdge.enable(this);
 		super.onCreate(savedInstanceState);
 		
 		setContentView(R.layout.dig_square);
+		ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.digSquare), (v, insets) -> {
+			Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+			v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+			return insets;
+		});
 		final FrameLayout parent = findViewById(R.id.digSquare);
 	
 		final Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
