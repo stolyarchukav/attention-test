@@ -1,85 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="fill_parent" android:layout_height="fill_parent">
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DigitalSequenceActivity">
 
-    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
 
-        <LinearLayout android:id="@+id/dig_seq"
-                      android:orientation="vertical"
-                      android:layout_width="fill_parent"
-                      android:layout_height="fill_parent">
+        <LinearLayout
+            android:id="@+id/dig_seq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-            <TextView android:layout_width="fill_parent"
-                      android:gravity="center"
-                      android:layout_height="wrap_content"
-                      android:textSize="24sp"
-                      android:layout_margin="6dp"
-                      android:text="@string/dig_seq_level"
-                      android:textColor="@color/title"/>
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:gravity="center"
+                android:text="@string/dig_seq_level"
+                android:textAppearance="?attr/textAppearanceHeadlineSmall"
+                android:textColor="?attr/colorPrimary" />
 
-            <CheckBox android:id="@+id/hideCompletedSquares"
-                      android:layout_width="fill_parent"
-                      android:layout_height="wrap_content"
-                      android:text="@string/dig_seq_hide_completed"
-                      android:textSize="16sp"
-                      android:layout_margin="6dp"/>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                app:cardCornerRadius="12dp"
+                app:contentPadding="8dp">
 
-            <CheckBox android:id="@+id/varFontSize"
-                      android:layout_width="fill_parent"
-                      android:layout_height="wrap_content"
-                      android:text="@string/dig_seq_var_font_size"
-                      android:textSize="16sp"
-                      android:layout_margin="6dp"/>
-
-            <CheckBox android:id="@+id/varFontColor"
-                      android:layout_width="fill_parent"
-                      android:layout_height="wrap_content"
-                      android:text="@string/dig_seq_var_font_color"
-                      android:textSize="16sp"
-                      android:layout_margin="8dp"/>
-
-            <CheckBox android:id="@+id/reverseOrder"
-                      android:layout_width="fill_parent"
-                      android:layout_height="wrap_content"
-                      android:text="@string/dig_seq_reverse_order"
-                      android:textSize="16sp"
-                      android:layout_margin="8dp"/>
-
-            <Button android:layout_width="fill_parent"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/dig_seq_size_3"
-                    android:textSize="16sp"
-                    android:layout_margin="8dp"
-                    android:id="@+id/digSeq3"
-                    android:theme="@android:style/Theme.Holo"/>
+                    android:orientation="vertical">
 
-            <Button android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/dig_seq_size_4"
-                    android:textSize="16sp"
-                    android:layout_margin="8dp"
-                    android:id="@+id/digSeq4"
-                    android:theme="@android:style/Theme.Holo"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox
+                        android:id="@+id/hideCompletedSquares"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dig_seq_hide_completed" />
 
-            <Button android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/dig_seq_size_5"
-                    android:textSize="16sp"
-                    android:layout_margin="8dp"
-                    android:id="@+id/digSeq5"
-                    android:theme="@android:style/Theme.Holo"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox
+                        android:id="@+id/varFontSize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dig_seq_var_font_size" />
 
-            <Button android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/dig_seq_size_6"
-                    android:textSize="16sp"
-                    android:layout_margin="8dp"
-                    android:id="@+id/digSeq6"
-                    android:theme="@android:style/Theme.Holo"/>
+                    <com.google.android.material.checkbox.MaterialCheckBox
+                        android:id="@+id/varFontColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dig_seq_var_font_color" />
+
+                    <com.google.android.material.checkbox.MaterialCheckBox
+                        android:id="@+id/reverseOrder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dig_seq_reverse_order" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/digSeq3"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/dig_seq_size_3" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/digSeq4"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/dig_seq_size_4" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/digSeq5"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/dig_seq_size_5" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/digSeq6"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dig_seq_size_6" />
 
         </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
 
-    </ScrollView>
-
-</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

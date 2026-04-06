@@ -1,6 +1,7 @@
 package org.forzadroid.attentiontest;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.widget.TextViewCompat;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -81,14 +82,11 @@ public class RecordsActivity extends AppCompatActivity {
 
 	private void createRecordText(TableRow row, int size, boolean odd) {
 		TextView text = new TextView(this);
-		LayoutParams params = new LayoutParams(LayoutParams.FILL_PARENT, LayoutParams.FILL_PARENT);
-		params.topMargin = 10;
-		params.leftMargin = 20;
+		LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
+		params.gravity = android.view.Gravity.END | android.view.Gravity.CENTER_VERTICAL;
 		text.setLayoutParams(params);
-		text.setTextSize(20);
-		if (odd) {
-			text.setTextColor(getResources().getColor(R.color.table_row_odd));
-		}
+		TextViewCompat.setTextAppearance(text, com.google.android.material.R.style.TextAppearance_Material3_BodyLarge);
+		text.setTypeface(null, android.graphics.Typeface.BOLD);
 		row.addView(text);
 		textMap.put(size, text);
 	}
